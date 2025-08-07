@@ -1,16 +1,37 @@
-# todo_app_prueba_tecnica
+# ✅ Todo App - Prueba Técnica
 
-A new Flutter project.
+Una pequeña aplicación Flutter de tareas (To-Do) desarrollada como prueba técnica.  
+Permite al usuario agregar, ver, eliminar y marcar como completadas sus tareas.  
+Usa almacenamiento local con `SharedPreferences` y está estructurada con **Clean Architecture** y manejo de estado usando **Bloc**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📋 Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Agregar tareas
+- 📋 Ver lista de tareas
+- ✔️ Marcar tareas como completadas o no completadas
+- 🗑️ Eliminar tareas
+- 💾 Persistencia local con SharedPreferences
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Cómo correr el proyecto
+
+Asegúrate de tener instalado Flutter en tu máquina:  
+[Instalar Flutter](https://docs.flutter.dev/get-started/install)
+
+### 1. Clona el repositorio
+
+```bash
+git clone https://github.com/rodolfomercedes12/todo-app-prueba-tecnica
+cd todo_app_prueba_tecnica
+
+
+### 2. Ejecutar el proyecto
+
+- flutter pub get
+- flutter run
+
+
+
